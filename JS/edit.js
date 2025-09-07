@@ -41,7 +41,7 @@ e.preventDefault();
 
     if (resposta.ok) {
     console.log("Usuário atualizado com sucesso!");
-    window.location.href = "view.html"; // volta pra lista
+    window.location.href = "home.html"; // volta pra home
     } else {
       console.log("Erro ao atualizar usuário");
     }
